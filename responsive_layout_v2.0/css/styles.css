@@ -1,0 +1,237 @@
+* {
+  text-align: center;
+}
+
+body {
+  background: black;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3, h4 {
+  margin: 4%;
+  font-size: 1.2em;
+}
+
+h1, h3, h4 {
+  font-weight: bold;
+}
+
+nav li {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  list-style: none;
+  margin: 1%;
+  padding: 1%;
+}
+
+.contact h3 {
+    margin-top: 2%;
+}
+
+.contact ul {
+    margin-bottom: 6%;
+}
+
+.contact ul li {
+    list-style: none;
+    margin: 2%;
+    padding: 0%;
+    border-radius: 5%;
+}
+
+
+footer {
+  margin: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  margin: 0px;
+}
+
+.right {
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav ul, .contact a {
+  padding: 0;
+  font-weight: bold;
+}
+
+
+.color {
+    background-color: darkgrey;
+    padding-top: 2%;
+  }
+
+  .lower {
+    margin-top: 3%;
+  }
+
+@media(min-width:1024px) {
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .primary {
+    width: 30%;
+    float: left;
+  }
+
+  .secondary {
+    width: 30%;
+    float: left;
+  }
+
+  .terciary {
+    width: 30%;
+    float: right;
+  }
+
+
+}
+
+@media(min-width:321px) {
+  nav li {
+    display: inline-block;
+  }
+
+  header img {
+    float: right;
+    width: 49%;
+    padding: 0;
+  }
+
+  header p {
+    float: left;
+    width: 49%;
+    height: 100%;
+    text-align: left;
+  }
+
+  .container {
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  header .col-top {
+    width: 50%;
+    padding-right: 3%;
+  }
+
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .col-1 {
+    float: left;
+    width: 49%;
+    padding-left: 5px;
+  }
+  .col-2 {
+    float: right;
+    width: 49%;
+  }
+
+  img {
+    padding-top: 5%;
+  }
+
+  .contact h3 {
+      margin-top: 2%;
+  }
+
+  .contact p {
+    margin: 0 5%;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .large {
+    padding: 0 2%;
+    display: inline-block;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  p {
+    margin: 7%;
+  }
+
+  .title {
+    margin-top: 10%
+  }
+
+  h1 {
+    margin: 5%;
+  }
+
+
+  nav li {
+    list-style: none;
+    background: white;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+  }
+
+  header img {
+    max-width: 80%;
+  }
+
+  img {
+    max-width: 90%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  h4, p {
+      text-align: center;
+  }
+
+  .large {
+    display: none;
+  }
+
+  .contact h3 {
+      margin-top: 7%;
+  }
+
+
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
