@@ -40,6 +40,10 @@ nav li {
   padding: 1%;
 }
 
+.profile p {
+  height: 100%;
+}
+
 .contact h3 {
     margin-top: 2%;
 }
@@ -91,29 +95,54 @@ nav ul, .contact a {
     margin-top: 3%;
   }
 
-@media(min-width:1024px) {
-  .portfolio {
-    width: 90%;
-    margin: 0 auto;
+  @media(max-width:320px) {
+
+    p {
+      margin: 7%;
+    }
+
+    .title {
+      margin-top: 10%
+    }
+
+    h1 {
+      margin: 5%;
+    }
+
+
+    nav li {
+      list-style: none;
+      background: white;
+      margin: 2%;
+      padding: 2%;
+      border-radius: 5%;
+    }
+
+    header img {
+      max-width: 80%;
+    }
+
+    img {
+      max-width: 90%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+
+    h4, p {
+        text-align: center;
+    }
+
+    .large {
+      display: none;
+    }
+
+    .contact h3 {
+        margin-top: 7%;
+    }
+
+
+
   }
-
-  .primary {
-    width: 30%;
-    float: left;
-  }
-
-  .secondary {
-    width: 30%;
-    float: left;
-  }
-
-  .terciary {
-    width: 30%;
-    float: right;
-  }
-
-
-}
 
 @media(min-width:321px) {
   nav li {
@@ -152,10 +181,12 @@ nav ul, .contact a {
     float: left;
     width: 49%;
     padding-left: 5px;
+    display: block;
   }
   .col-2 {
     float: right;
     width: 49%;
+    display: block;
   }
 
   img {
@@ -181,54 +212,42 @@ nav ul, .contact a {
 
 }
 
-@media(max-width:320px) {
-
-  p {
-    margin: 7%;
+@media(min-width:1024px) {
+  body {
+    font-size: 1.3em;
+  }
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .title {
-    margin-top: 10%
+  .row-1, .row-2 {
+    display: inline-block;
   }
 
-  h1 {
-    margin: 5%;
+  .primary {
+    width: 31%;
+    float: left;
+    margin-left: 1%;
   }
 
-
-  nav li {
-    list-style: none;
-    background: white;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 5%;
+  .secondary {
+    width: 31%;
+    float: left;
+    margin: auto;
+    padding: 0% 2%;
   }
 
-  header img {
-    max-width: 80%;
+  .terciary {
+    width: 31%;
+    float: left;
+    padding: 0;
   }
-
-  img {
-    max-width: 90%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-
-  h4, p {
-      text-align: center;
-  }
-
-  .large {
-    display: none;
-  }
-
-  .contact h3 {
-      margin-top: 7%;
-  }
-
 
 
 }
+
+
 
 .clearfix::after {
     content: "";
