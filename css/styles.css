@@ -3,9 +3,7 @@
 }
 
 body {
-  background: black;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
 }
 
 img {
@@ -78,16 +76,17 @@ hr {
 }
 
 footer {
-  margin: 20px;
-  margin-bottom: 0px;
+  margin: 10px auto;
   padding-bottom: 10px;
   font-weight: bold;
+  max-width: 90%;
 }
 
 .left {
   float: left;
   display: inline-block;
   margin: 0px;
+  padding-left: 4.5%;
 }
 
 .right {
@@ -104,7 +103,6 @@ nav ul, .contact a {
 
 
 .color {
-    background-color: darkgrey;
     padding-top: 2%;
   }
 
@@ -250,17 +248,13 @@ nav ul, .contact a {
   h1 {
     float: left;
     display: inline-block;
-    margin-left: 4%;
+    margin-left: 5%;
   }
 
   nav ul {
     float: right;
     display: inline-block;
     width: 50%;
-  }
-
-  nav li a {
-    color: white;
   }
 
   .portfolio {
